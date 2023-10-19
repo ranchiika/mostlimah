@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/gogo.svg" type="image/x-icon">
+    <title>Mostlimah - Jadwal Sholat</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header and Navigation bar -->
+    <header class="header">
+        <a href="index.html"><img src="img/Group 3.svg" alt=""></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html">Beranda</a>
+            <a href="jadwalsholat.html" class="active"><strong>Jadwal Sholat</strong></a>
+            <a href="listsurah.html">Surah Al-quran</a>
+            <a href="asmaulhusna.html">Asmaul Husna</a>
+        </nav>
+    </header>
+
+    <!-- Jadwal Sholat -->
+
+    <section class="jadwal-sholat">
+        <h1 id="headingJ">Jadwal Sholat</h1>
+
+           <div class="deskripsi">
+            <p id="city">kota</p>
+            <p id="pembatas">|</p>
+            <p id="prov">provinsi</p>
+           </div>
+        <div class="container">
+            <div class="card">
+                <!-- <div class="card-header">
+                    <h5>Jadwal Sholat</h5>
+                    <p>Kota/Lokasi : <strong id="city"></strong></p>
+                    <p>Provinsi/Daerah:  <strong id="prov"></strong></p>
+                </div> -->
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>Tanggal</th>
+                                    <th>Imsak</th>
+                                    <th>Shubuh</th>
+                                    <th>Terbit</th>
+                                    <th>Dzuhur</th>
+                                    <th>Ashar</th>
+                                    <th>Maghrib</th>
+                                    <th>Isya</th>
+                                </tr>
+                            </thead>
+                            <tbody id="list-jadwal"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <img src="img/Group 4.svg" alt="">
+            <p>Copyright &copy; 2023 Mostlimah | All Right Reservered</p>
+        </div>
+        
+        <div class="link-sanasini">
+            <a href="jadwalsholat.html">Jadwal Sholat</a>
+            <a href="listsurah.html">Surah Al-Quran</a>
+            <a href="asmaulhusna.html">Asmaul Husna</a>
+        </div>
+
+    </footer>
+
+    <script src="myScript.js"></script>
+</body>
+</html>
